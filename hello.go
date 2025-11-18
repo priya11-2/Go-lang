@@ -7,7 +7,7 @@ import (
 
 func main() {
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-        fmt.Fprintln(w, "Hello, World from Go on OpenShift!")
+        fmt.Fprintln(w, "Hello, World from Go on OpenShift! from priya wagh")
     })
 
     fmt.Println("Server running on port 8080")
